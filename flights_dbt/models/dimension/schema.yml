@@ -1,0 +1,16 @@
+
+version: 2
+
+models:
+  - name: Dim_Airport
+    description: "Name of Airports & Cities"
+    columns:
+      - name: airport_code
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+    
+ 
+          
+           
